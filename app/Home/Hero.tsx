@@ -21,7 +21,8 @@ export default function Hero() {
           <span className='font-medium'>
             <AnimatedText texts={ANIMATED_TEXTS} />
           </span>
-          <div className='ml-2 inline-block h-8 w-4 terminal-cursor'></div>!
+          <div className='ml-2 inline-block h-6 sm:h-8 w-3 sm:w-4 terminal-cursor'></div>
+          !
         </h1>
 
         <p className='text-neutral-600 dark:text-neutral-400 font-light'>
